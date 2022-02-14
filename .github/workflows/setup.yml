@@ -23,7 +23,7 @@ jobs:
         python -m pip install --upgrade pip
         pip install -r requirements.txt
     - name: Run a python sript
-      run: python formatter.py
+      run: python formater.py
     - name: Auto commit
       run: |
            git config user.name "sunx2"
