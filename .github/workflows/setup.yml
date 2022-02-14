@@ -27,7 +27,7 @@ jobs:
     - name: Auto commit
       run: |
            git config user.name "sunx2"
-           git config user.email "xxsunxxrose@gmail.com"
+           git config user.email "email"
            git add .
            git commit -m "generated"
            git push
